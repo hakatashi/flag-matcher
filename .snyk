@@ -1,0 +1,148 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - github > follow-redirects > debug:
+        patched: '2021-03-06T19:35:46.117Z'
+    - github > https-proxy-agent > debug:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - clockwork > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - fbgraph > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - github > https-proxy-agent > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+    - github > https-proxy-agent > agent-base > extend:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:hoek:20180212':
+    - clockwork > request > hawk > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > hawk > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > hawk > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > hawk > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > hawk > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - clockwork > request > hawk > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > hawk > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > hawk > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > hawk > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > hawk > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - clockwork > request > hawk > sntp > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > hawk > sntp > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > hawk > sntp > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > hawk > sntp > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > hawk > sntp > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > hawk > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - clockwork > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > hawk > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > hawk > sntp > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-06T19:35:46.117Z'
+  SNYK-JS-LODASH-567746:
+    - node-sass-middleware > node-sass > gaze > globule > lodash:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:mime:20170907':
+    - github > mime:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > mime:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:ms:20170412':
+    - github > follow-redirects > debug > ms:
+        patched: '2021-03-06T19:35:46.117Z'
+    - github > https-proxy-agent > debug > ms:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:qs:20170213':
+    - request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - clockwork > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+    - fbgraph > request > qs:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:request:20160119':
+    - node-foursquare > winston > request:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:tough-cookie:20170905':
+    - request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - clockwork > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - fbgraph > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > tough-cookie:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:tunnel-agent:20170305':
+    - clockwork > request > tunnel-agent:
+        patched: '2021-03-06T19:35:46.117Z'
+    - lob > request > tunnel-agent:
+        patched: '2021-03-06T19:35:46.117Z'
+    - node-linkedin > request > tunnel-agent:
+        patched: '2021-03-06T19:35:46.117Z'
+    - tumblr.js > request > tunnel-agent:
+        patched: '2021-03-06T19:35:46.117Z'
+    - twit > request > tunnel-agent:
+        patched: '2021-03-06T19:35:46.117Z'
+    - passport-openid > openid > request > tunnel-agent:
+        patched: '2021-03-06T19:35:46.117Z'
+  'npm:ws:20160920':
+    - express-status-monitor > socket.io > engine.io > ws:
+        patched: '2021-03-06T19:35:46.117Z'
+    - express-status-monitor > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2021-03-06T19:35:46.117Z'
