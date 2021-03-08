@@ -274,12 +274,7 @@ async@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
-async@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
-  integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
-
-async@^3.1.0:
+async@^3.1.0, async@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/async/-/async-3.2.0.tgz#b3a2685c5ebb641d3de02d161002c60fc9f85720"
   integrity sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw==
@@ -3173,13 +3168,13 @@ pause@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
 
-paypal-rest-sdk@^1.6.9:
-  version "1.6.9"
-  resolved "https://registry.yarnpkg.com/paypal-rest-sdk/-/paypal-rest-sdk-1.6.9.tgz#6bc5adeda2477adf6917f85a94746593b6c4a99f"
+paypal-rest-sdk@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/paypal-rest-sdk/-/paypal-rest-sdk-1.8.1.tgz#5023fd42f43da628d18cc00d6bd566eacba74528"
+  integrity sha512-Trj2GuPn10GqpICAxQh5wjxuDT7rq7DMOkvyatz05wI5xPGmqXN7UC0WfDSF9WSBs4YdcWZP0g+nY+sOdaFggw==
   dependencies:
     buffer-crc32 "^0.2.3"
     semver "^5.0.3"
-    uuid "^2.0.1"
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -4349,10 +4344,6 @@ utils-merge@1.0.1:
 utils-merge@1.x.x:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.0.tgz#0294fb922bb9375153541c4f7096231f287c8af8"
-
-uuid@^2.0.1:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
 uuid@^3.3.2:
   version "3.4.0"
