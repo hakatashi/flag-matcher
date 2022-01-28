@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "async": "^3.2.2",
-    "basic-auth": "^1.0.4",
+    "basic-auth": "^2.0.1",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.19.1",
     "chalk": "^2.0.0",
@@ -34,7 +34,7 @@
     "github": "^13.0.0",
     "instagram-node": "^0.5.8",
     "lastfm": "^0.9.3",
-    "lob": "^6.5.3",
+    "lob": "^3.9.0",
     "lodash": "^4.17.21",
     "lusca": "^1.6.1",
     "mongoose": "^6.1.3",
