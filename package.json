@@ -22,7 +22,7 @@
     "clockwork": "^0.1.4",
     "compression": "^1.7.1",
     "connect-mongo": "^4.6.0",
-    "dotenv": "^11.0.0",
+    "dotenv": "^12.0.3",
     "errorhandler": "^1.5.1",
     "express": "^4.17.2",
     "express-flash": "^0.0.2",
