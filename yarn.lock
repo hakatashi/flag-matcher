@@ -501,7 +501,7 @@ bluebird@^2.10.2:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-2.11.0.tgz#534b9033c022c9579c56ba3b3e5a5caafbb650e1"
 
-bluebird@^3.0.6, bluebird@^3.1.5:
+bluebird@^3.1.5:
   version "3.4.6"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.4.6.tgz#01da8d821d87813d158967e743d5fe6c62cf8c0f"
 
@@ -2540,12 +2540,12 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lob@^3.9.0:
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/lob/-/lob-3.9.0.tgz#4eab5a0c7a7b0aefd82f9639455a11c422468ef9"
+lob@^6.5.5:
+  version "6.5.5"
+  resolved "https://registry.yarnpkg.com/lob/-/lob-6.5.5.tgz#2656db1b3c35ce2d0c6f328431eb65597dd9b85a"
+  integrity sha512-iyFoDGzMAF/AF4hB9hXmRzRTT8d6oXgNZX9rMn+r+jqfig39kVtw3J1HY/mwjAPcdn1ygs+88zGmqqPu+Q3grg==
   dependencies:
-    bluebird "^3.0.6"
-    request "^2.55.0"
+    request "^2.88.0"
 
 locate-path@^5.0.0:
   version "5.0.0"
@@ -3883,7 +3883,7 @@ regenerator-runtime@^0.11.0:
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
   integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
-request@>=2.33.0, request@^2.55.0, request@^2.61.0, request@^2.68.0, request@^2.74.0:
+request@>=2.33.0, request@^2.61.0, request@^2.68.0, request@^2.74.0:
   version "2.76.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.76.0.tgz#be44505afef70360a0436955106be3945d95560e"
   dependencies:
