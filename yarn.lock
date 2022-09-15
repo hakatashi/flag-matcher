@@ -2547,10 +2547,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lob@^6.6.0:
-  version "6.6.2"
-  resolved "https://registry.yarnpkg.com/lob/-/lob-6.6.2.tgz#4fc81e298fcd49b3628541cc526bdf44959cd9cf"
-  integrity sha512-MI9/T/eRFvb/U/BQdmyis1KBHasPV2tEVp+BEbmNxXS46i8PQbN72IlbQLHfkRJL3k9B4IGNrdFTdtyLF6B0Nw==
+lob@^6.6.3:
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/lob/-/lob-6.6.3.tgz#f094d9916a79efc7258399408d5cb7835f655b48"
+  integrity sha512-ufR0Sj4uSEBqcYcx5R8kPwh7odswzk4AhTcoX8ToEgeFsb2unK3U8HMJgZH3w84cVA8Dpih1NQzv+RdGRqpoSw==
   dependencies:
     request "^2.88.0"
 
