@@ -18,7 +18,7 @@
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.20.2",
     "chalk": "^5.0.1",
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0",
     "clockwork": "^0.1.4",
     "compression": "^1.7.1",
     "connect-mongo": "^5.1.0",
