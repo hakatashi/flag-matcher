@@ -2656,12 +2656,12 @@ kuler@^2.0.0:
   resolved "https://registry.yarnpkg.com/kuler/-/kuler-2.0.0.tgz#e2c570a3800388fb44407e851531c1d670b061b3"
   integrity sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==
 
-lastfm@^0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/lastfm/-/lastfm-0.9.3.tgz#0c44590a342d05a2eadf2566915baf185293bc3c"
-  integrity sha512-H/NoLWyRFG2wL+M5HQgQKa9TkAMoedWpY+1aTr0RIOfMnvy5YlBF/VcMYhHycBX2ZH+Vo+Aw6c1yJm6Q9ZMssA==
+lastfm@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/lastfm/-/lastfm-0.9.4.tgz#54c68fbfa31630cdc21b2bf37a1b1a59ec1e4617"
+  integrity sha512-zT7nQfdFZVdUMjjaUwRldKFrmb5lv/8q/bcxzzDMZuK9Nq4nSoxbeHWq9SXDpREaJztd9aAXPPyaY2HOotdbCw==
   dependencies:
-    underscore "~1.6.0"
+    underscore "~1.13.6"
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
@@ -4936,9 +4936,10 @@ uid2@0.0.x:
   resolved "https://registry.yarnpkg.com/uid2/-/uid2-0.0.4.tgz#033f3b1d5d32505f5ce5f888b9f3b667123c0a44"
   integrity sha512-IevTus0SbGwQzYh3+fRsAMTVVPOoIVufzacXcHPmdlle1jUpq7BRL+mw3dgeLanvGZdwwbWhRV6XrcFNdBmjWA==
 
-underscore@~1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.6.0.tgz#8b38b10cacdef63337b8b24e4ff86d45aea529a8"
+underscore@~1.13.6:
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
+  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
 
 undici-types@~5.26.4:
   version "5.26.5"
